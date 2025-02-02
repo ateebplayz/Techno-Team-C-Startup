@@ -219,7 +219,7 @@ export default function Home() {
       <div className={'w-full px-24 mt-12 mb-12 flex flex-col items-center justify-center'}>
         <h1 className={'text-9xl'}>A <span className={'text-foreground'}>Video</span> Teaser.</h1>
         <video
-          src={'/teaser.mp4'}
+          src={'https://amplyfy.ai/teaser.mp4'}
           height={2304}
           width={4096}
           controls={true}
