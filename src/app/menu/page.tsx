@@ -2,7 +2,7 @@
 import React, {useEffect, useRef} from 'react';
 import '../globals.css';
 import { motion } from 'framer-motion';
-import {RiArrowGoBackFill, RiArrowLeftCircleFill, RiArrowUpCircleFill, RiArrowUpFill} from 'react-icons/ri'
+import {RiArrowLeftCircleFill, RiArrowUpCircleFill} from 'react-icons/ri'
 import { useRouter } from 'next/navigation'
 
 export default function Home() {
